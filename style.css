@@ -1,0 +1,43 @@
+/* .navbar{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+} */
+nav{
+    position: relative;
+    z-index: 99;
+}
+#bgImg {
+    z-index: -1;
+    object-fit: cover;
+}
+#banner {
+    position: relative;
+    height: calc(100vh - 56px);
+}
+.fix-height{
+    height: 10rem;
+    object-fit: cover;   
+}
+.card:hover{
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.1);
+}
+#icon{
+    top: 42%;
+    left: 90%;
+    color: #000;
+}
+.accordion-item{
+    box-shadow: rgb(28 28 28 / 20%) 0px 1.42623px 2.85246px;
+    border-radius: 5px;
+}
+.accordion-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    color: #fff;
+    background-image: linear-gradient(to top, black, transparent);
+}
